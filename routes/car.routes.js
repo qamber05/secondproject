@@ -35,7 +35,7 @@ router.post('/new', async (req,res)=>{
     })
 
     //delete from the fruits still not many changes
-    router.delete("/:id", async (req,res)=>{
+    router.get("/:id/delete", async (req,res)=>{
     console.log(req.params)
     try{
         const deletedCar = await Car.findByIdAndDelete(req.params.id)
@@ -59,8 +59,8 @@ router.get("/:id/update",async(req,res)=>{
     }
 })
 
-router.put("/:carId",async(req,res)=>{
-    
+router.put("/:carId/update",async(req,res)=>{
+    // console.log(req.body)
     const updatedCar = await  Car.findByIdAndUpdate(req.params.carId, req.body)
     res.redirect("/cars")
 })

@@ -8,7 +8,12 @@
 <body>
     <h1>All cars page</h1>
     <% allCars.forEach(element => { %>
-        <h3><%= element.carName %></h3>
-   <% }); %>
+        <h2><%= element.carName %></h2>
+        <h3><%= element.carModel %></h3>
+        <h3><%= element.carHorsepower %></h3>
+        <a href="/cars/<%= element._id %>/update">Update me</a>
+        <a href="/cars/<%= element._id %>/delete">Delete me</a>
+        
+        <% }); %>
 </body>
 </html>
