@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>enter ur car</h1>
+    <form action="/cars/new" method="post">
+        <!-- label and input for each value in the model -->
+         
+        <form>
+            <label for="carName">carName:</label>
+            <input type="text" id="carName" name="carName">
+            <br />
+
+            <label for="carModel">carModel:</label>
+            <input type="text" id="carModel" name="carModel" >
+            <br />
+
+            <label for="carYear">carYear:</label>
+            <input type="number" id="carYear" name="carYear" >
+            <br />
+
+            <label for="carWeight">carWeight:</label>
+            <input type="number" id="carWeight" name="carWeight" >
+            <br />
+
+            <label for="carHorsepower">carHorsepower:</label>
+            <input type="number" id="carHorsepower" name="carHorsepower">
+            <br />
+
+            <label for="carPrice">carPrice:</label>
+            <input type="number" id="carPrice" name="carPrice" >
+            <br /> 
+
+
+            <button type="submit">create a car</button>
+        </form>
+
+         <!-- when the form submits the action should send a post request to a route /cars -->
+    <a href="/cars">Go Back</a>
+          <!-- In the carRoutes: create a router.post() that will use the model to do a Car.create(req.body), redirect somewhere -->
+</body>
+</html>

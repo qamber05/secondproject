@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car</title>
+</head>
+<body>
+    <h1>Update car</h1>
+
+    <form action="/cars/<%= foundCar._id %>/update?_method=PUT" method="post">
+
+
+        <label for="carName">Name:</label>
+        <input value="<%= foundCar.carName%>" type="text" name="carName" id="carName">
+
+        <label for="carModel">carModel:</label>
+        <input value="<%= foundCar.carModel %>" type="text" name="carModel" id="carModel">
+
+         <label for="carYear">carYear:</label>
+        <input value="<%= foundCar.carYear %>" type="number" name="carYear" id="carYear">
+
+         <label for="carWeight">carWeight:</label>
+        <input value="<%= foundCar.carWeight %>" type="number" name="carWeight" id="carWeight">
+
+ <label for="carHorsepower">carHorsepower:</label>
+        <input value="<%= foundCar.carHorsepower %>" type="number" name="carHorsepower" id="carHorsepower">
+
+
+        <button type="submit">Update</button>
+
+
+        <!-- 1. Update our form to use the right field names -->
+        <!-- 2. Make sure the form's field names EXACTLY match the field names in the Model-->
+        <!-- 3. Update the link to POST to call the right router -->
+        <!-- When the form is completed, create the router to update. Hint: findByIdAndUpdate-->
+
+    </form>
+</body>
+</html>
