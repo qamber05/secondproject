@@ -114,10 +114,11 @@ h1 {
 }
 
 .kkk .bro {
-    display: none;
+    opacity: 0;
+    transition: 0.3;
 }
 
 
 .kkk:hover .bro {
-    display: block;
+    opacity: 1;
 }
