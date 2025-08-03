@@ -17,7 +17,8 @@
 }
 
 body {
-    background-color: black;
+    background-color: black
+    ;
 }
 
 .kkk {
@@ -45,16 +46,34 @@ a:link {
 }
 nav{
     display: flex;
-    color: wheat;
+    text-decoration: dotted;
+    text-shadow: thistle;
+    color: #ffe875;
     width: 100%;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap:10px;
-    background-color: rgb(28, 28, 28);
+    background-color: rgb(17, 17, 17);
     margin: 0px;
     padding: 0px;
+    font-weight: bolder;
 }
 nav a{
-    color: wheat;
+    color: whitesmoke;
 }
+
+.textup {
+    color: white;
+}
+
+.textdown {
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align:center
+}
+
+ 

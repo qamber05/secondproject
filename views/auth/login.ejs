@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="/style.css">
 
 <body>
     <%- include('../partials/navbar') %>
         <h1>Log in</h1>
         <form action="/auth/login" method="post">
+            <div class="textup">
             <label for="username">username:</label>
             <input type="text" name="username" id="username">
 
@@ -18,6 +20,7 @@
             <input type="password" name="password" id="password">
 
             <button>Login</button>
+            </div>
         </form>
 
         <% if (error) { %>
