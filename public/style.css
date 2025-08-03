@@ -22,9 +22,28 @@ body {
 }
 
 .kkk {
-    border: 0ch;
+border: 0ch;
+width: 600px;
+  height: 250px;
+  background-color: rgb(36, 2, 2);
+  border: 2px solid #330707;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto; /* Centers the div horizontally */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+  color: #555;
+  font-family: sans-serif;
+  font-size: 18px;
+  
 }
 
+.kkk:hover {
+    background-color: rgb(66, 5, 5);
+    color: white;
+    cursor: pointer;
+}
 
 a:link {
     color: purple;
@@ -65,10 +84,18 @@ nav a{
 
 .textup {
     color: white;
+    text-align:center;
+    margin: auto;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .textdown {
     color: white;
+    text-align:center;
+    margin: auto;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
