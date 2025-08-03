@@ -34,3 +34,27 @@ a:link {
     a:visited {
         font-weight: lighter;
     }
+
+.toplink {
+    border: 1px white solid;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: darkslateblue;
+    color: white;
+}
+nav{
+    display: flex;
+    color: wheat;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    background-color: rgb(28, 28, 28);
+    margin: 0px;
+    padding: 0px;
+}
+nav a{
+    color: wheat;
+}
