@@ -6,11 +6,14 @@
     <title>car</title>
 </head>
 <body>
+    <div class="head">
     <h1>Update car</h1>
+    </div>
+     <link rel="stylesheet" href="/style.css">
 
     <form action="/cars/<%= foundCar._id %>/update?_method=PUT" method="post">
 
-
+<div class="bro">
         <label for="carName">Name:</label>
         <input value="<%= foundCar.carName%>" type="text" name="carName" id="carName">
 
@@ -34,7 +37,7 @@
         <!-- 2. Make sure the form's field names EXACTLY match the field names in the Model-->
         <!-- 3. Update the link to POST to call the right router -->
         <!-- When the form is completed, create the router to update. Hint: findByIdAndUpdate-->
-
+</div>
     </form>
 </body>
 </html>

@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="/style.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="head">
     <h1>enter ur car</h1>
+    </div>
     <form action="/cars/new" method="post">
         <!-- label and input for each value in the model -->
          
         <form>
+            <div class="bro">
             <label for="carName">carName:</label>
             <input type="text" id="carName" name="carName">
             <br />
@@ -37,6 +41,7 @@
 
 
             <button type="submit">create a car</button>
+            </div>
         </form>
 
          <!-- when the form submits the action should send a post request to a route /cars -->

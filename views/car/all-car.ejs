@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Car re-selling website</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+    <div class="head">
     <h1>All cars page</h1>
+    </div>
     <% allCars.forEach(element => { %>
-        <h2><%= element.carName %></h2>
-        <h3><%= element.carModel %></h3>
-        <h3><%= element.carHorsepower %></h3>
+        <h2 id="gang"><%= element.carName %></h2>
+        <h3 class="bro"><%= element.carModel %></h3>
+        <h3 class="bro"><%= element.carHorsepower %></h3>
+        <h3 class="bro"><%= element.carWeight %></h3>
+        <h3 class="bro"><%= element.carPrice %></h3>
+        <h3 class="bro"><%= element.carYear %></h3>
         <a href="/cars/<%= element._id %>/update">Update me</a>
         <a href="/cars/<%= element._id %>/delete">Delete me</a>
         

@@ -1,11 +1,21 @@
-.h2 {
+.bro {
     color: gray;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
 }
 
-.h3 {
+#gang {
     color: gainsboro;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
+}
+
+.head {
+    font-size: x-large;
+    color: whitesmoke;
+    
+}
+
+body {
+    background-color: black;
 }
