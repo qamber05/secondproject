@@ -13,9 +13,17 @@
 .head {
     font-size: x-large;
     color: whitesmoke;
-    
+
 }
 
 body {
     background-color: black;
 }
+
+.kkk {
+    border: 0ch;
+}
+
+a {
+    color: purple;
+    }

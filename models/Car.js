@@ -18,6 +18,9 @@ const carSchema = new mongoose.Schema({
     },
     carHorsepower: {
         type:Number
+    },
+    carPrice: {
+        type:Number
     }
 
 
