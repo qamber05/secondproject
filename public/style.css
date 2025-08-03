@@ -25,6 +25,12 @@ body {
 }
 
 
-a {
+a:link {
     color: purple;
+    }
+    a:hover {
+        font-weight: bold;
+    }
+    a:visited {
+        font-weight: lighter;
     }
