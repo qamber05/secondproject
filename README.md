@@ -38,14 +38,11 @@ this project baiscally tries to imitate whata  real car dealrship website looks 
 ---
 
 ## Features
-
-- Interactive 3x3 game board
-- Two game modes:
-  - Player vs Player
-  - Player vs Computer (random moves) this hopefully in the future 
-- Color-coded turns and results
-- Game reset button
-- Visual win/tie message system
+- registers only emails 
+- ability to add any car and go specific with its type 
+- login and sign up system 
+- update button
+- delete button
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,6 +52,7 @@ this project baiscally tries to imitate whata  real car dealrship website looks 
 
 - HTML
 - CSS
+- EJS
 - JavaScrip
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -63,7 +61,7 @@ this project baiscally tries to imitate whata  real car dealrship website looks 
 
 ## Getting Started
 
-To run the game locally:
+To run the website locally:
 
 ### Prerequisites
 
@@ -74,8 +72,8 @@ A modern web browser (e.g. Chrome, Firefox, Edge).
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/tic-tac-toe.git
+git clone https://github.com/qamber05/secondproject
 
 
 
-[Product-screenshot](./scraps/tictacScreenshot%202025-07-17%20125536.png)
+[Product-screenshot](./public/Screenshot%202025-08-04%20112236.png)
